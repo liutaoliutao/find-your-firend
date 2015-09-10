@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="MJCustomNavView">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="ewr-c8-jRv">
+                    <rect key="frame" x="-61" y="-14" width="123" height="29"/>
+                    <segments>
+                        <segment title="会话"/>
+                        <segment title="关心"/>
+                        <segment title="初遇"/>
+                        <segment title="重逢"/>
+                    </segments>
+                    <connections>
+                        <action selector="segmentedC:" destination="iN0-l3-epB" eventType="valueChanged" id="UfO-Xh-bSu"/>
+                    </connections>
+                </segmentedControl>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="p93-3I-PjP" customClass="MJSignView">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                        <rect key="frame" x="97" y="0.0" width="19" height="26"/>
+                    </variation>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zsw-L8-OfE" customClass="MJSignView">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                        <rect key="frame" x="250" y="8" width="19" height="26"/>
+                    </variation>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="X2i-Uf-gWS" customClass="MJSignView">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                        <rect key="frame" x="411" y="8" width="19" height="26"/>
+                    </variation>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SAt-HP-dMV" customClass="MJSignView">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                        <rect key="frame" x="546" y="13" width="19" height="26"/>
+                    </variation>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="ewr-c8-jRv" secondAttribute="bottom" id="2dR-k2-Efu"/>
+                <constraint firstItem="ewr-c8-jRv" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="o7i-9U-X8c"/>
+                <constraint firstAttribute="trailing" secondItem="ewr-c8-jRv" secondAttribute="trailing" id="puR-cI-k87"/>
+                <constraint firstItem="ewr-c8-jRv" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="ssF-9O-UmQ"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="subviews">
+                    <exclude reference="ewr-c8-jRv"/>
+                    <exclude reference="p93-3I-PjP"/>
+                    <exclude reference="zsw-L8-OfE"/>
+                    <exclude reference="X2i-Uf-gWS"/>
+                    <exclude reference="SAt-HP-dMV"/>
+                </mask>
+                <mask key="constraints">
+                    <exclude reference="2dR-k2-Efu"/>
+                    <exclude reference="o7i-9U-X8c"/>
+                    <exclude reference="puR-cI-k87"/>
+                    <exclude reference="ssF-9O-UmQ"/>
+                </mask>
+            </variation>
+            <variation key="heightClass=regular-widthClass=compact">
+                <mask key="subviews">
+                    <include reference="ewr-c8-jRv"/>
+                    <include reference="p93-3I-PjP"/>
+                    <include reference="zsw-L8-OfE"/>
+                    <include reference="X2i-Uf-gWS"/>
+                    <include reference="SAt-HP-dMV"/>
+                </mask>
+                <mask key="constraints">
+                    <include reference="2dR-k2-Efu"/>
+                    <include reference="o7i-9U-X8c"/>
+                    <include reference="puR-cI-k87"/>
+                    <include reference="ssF-9O-UmQ"/>
+                </mask>
+            </variation>
+            <connections>
+                <outlet property="firstSignView" destination="p93-3I-PjP" id="RSb-kT-XE8"/>
+                <outlet property="forthSignView" destination="SAt-HP-dMV" id="AZ0-ei-ads"/>
+                <outlet property="secondSignView" destination="zsw-L8-OfE" id="Avc-nr-sgm"/>
+                <outlet property="segmentControl" destination="ewr-c8-jRv" id="QsT-dZ-8Fl"/>
+                <outlet property="thirdSignView" destination="X2i-Uf-gWS" id="rH3-oF-zc8"/>
+            </connections>
+            <point key="canvasLocation" x="384" y="-344"/>
+        </view>
+    </objects>
+</document>

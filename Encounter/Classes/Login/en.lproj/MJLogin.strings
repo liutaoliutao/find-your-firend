@@ -1,0 +1,60 @@
+
+/* Class = "UITextField"; placeholder = "输入手机号"; ObjectID = "1et-ko-Ez1"; */
+"1et-ko-Ez1.placeholder" = "输入手机号";
+
+/* Class = "UITextField"; placeholder = "请输入手机号码"; ObjectID = "20J-OS-wfL"; */
+"20J-OS-wfL.placeholder" = "请输入手机号码";
+
+/* Class = "UITextField"; placeholder = "请设置8-16位新密码"; ObjectID = "7Cb-AL-Z8q"; */
+"7Cb-AL-Z8q.placeholder" = "请设置8-16位新密码";
+
+/* Class = "UIButton"; normalTitle = "完  成"; ObjectID = "IgP-PN-ags"; */
+"IgP-PN-ags.normalTitle" = "完  成";
+
+/* Class = "UILabel"; text = "你的每一步，都在改变大家的交友方式"; ObjectID = "ImJ-xd-lCW"; */
+"ImJ-xd-lCW.text" = "你的每一步，都在改变大家的交友方式";
+
+/* Class = "UILabel"; text = "女"; ObjectID = "YKs-rd-otq"; */
+"YKs-rd-otq.text" = "女";
+
+/* Class = "UIButton"; normalTitle = "完  成"; ObjectID = "aW7-j0-4Do"; */
+"aW7-j0-4Do.normalTitle" = "完  成";
+
+/* Class = "UITextField"; placeholder = "设置登录密码"; ObjectID = "aX7-oS-Grb"; */
+"aX7-oS-Grb.placeholder" = "设置登录密码";
+
+/* Class = "UITextField"; placeholder = "请输入你收到的验证码"; ObjectID = "bOT-at-XgL"; */
+"bOT-at-XgL.placeholder" = "请输入你收到的验证码";
+
+/* Class = "UIButton"; normalTitle = "新用户注册/找回密码"; ObjectID = "bkb-yq-apH"; */
+"bkb-yq-apH.normalTitle" = "新用户注册/找回密码";
+
+/* Class = "UIButton"; selectedTitle = "新用户注册/找回密码"; ObjectID = "bkb-yq-apH"; */
+"bkb-yq-apH.selectedTitle" = "新用户注册/找回密码";
+
+/* Class = "UILabel"; text = "性别："; ObjectID = "fW4-T8-fRe"; */
+"fW4-T8-fRe.text" = "性别：";
+
+/* Class = "UIButton"; normalTitle = "登  录"; ObjectID = "igS-fR-INR"; */
+"igS-fR-INR.normalTitle" = "登  录";
+
+/* Class = "UITextField"; placeholder = "请输你收到的验证码"; ObjectID = "mcz-um-7Fi"; */
+"mcz-um-7Fi.placeholder" = "请输你收到的验证码";
+
+/* Class = "UITextField"; placeholder = "输入登录密码"; ObjectID = "q4Z-YV-3wH"; */
+"q4Z-YV-3wH.placeholder" = "输入登录密码";
+
+/* Class = "UILabel"; text = "男"; ObjectID = "sw4-sP-KmL"; */
+"sw4-sP-KmL.text" = "男";
+
+/* Class = "UILabel"; text = "生日："; ObjectID = "uOo-Bx-7AM"; */
+"uOo-Bx-7AM.text" = "生日：";
+
+/* Class = "UILabel"; text = "名字："; ObjectID = "wBS-Yf-SmE"; */
+"wBS-Yf-SmE.text" = "名字：";
+
+/* Class = "UIButton"; normalTitle = "获取验证码"; ObjectID = "xqc-ry-9ae"; */
+"xqc-ry-9ae.normalTitle" = "获取验证码";
+
+/* Class = "UINavigationItem"; title = "Title"; ObjectID = "zU2-sf-lV4"; */
+"zU2-sf-lV4.title" = "Title";

@@ -1,0 +1,9 @@
+
+/* Class = "UILabel"; text = "我的相册"; ObjectID = "Kpa-11-KD2"; */
+"Kpa-11-KD2.text" = "我的相册";
+
+/* Class = "UILabel"; text = "用户昵称"; ObjectID = "gED-Qk-H1O"; */
+"gED-Qk-H1O.text" = "用户昵称";
+
+/* Class = "UIButton"; normalTitle = "返回"; ObjectID = "slq-VH-46c"; */
+"slq-VH-46c.normalTitle" = "返回";

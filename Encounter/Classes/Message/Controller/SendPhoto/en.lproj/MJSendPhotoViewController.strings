@@ -1,0 +1,15 @@
+
+/* Class = "UILabel"; text = "照片将分享到"; ObjectID = "b5H-42-01p"; */
+"b5H-42-01p.text" = "照片将分享到";
+
+/* Class = "UIButton"; normalTitle = "拍照"; ObjectID = "ecm-1M-wKr"; */
+"ecm-1M-wKr.normalTitle" = "拍照";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "iGA-Bo-Jqp"; */
+"iGA-Bo-Jqp.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "从相册中选择"; ObjectID = "kWs-E3-VYJ"; */
+"kWs-E3-VYJ.normalTitle" = "从相册中选择";
+
+/* Class = "UITextField"; placeholder = "说点什么把"; ObjectID = "z5m-OZ-jAk"; */
+"z5m-OZ-jAk.placeholder" = "说点什么把";

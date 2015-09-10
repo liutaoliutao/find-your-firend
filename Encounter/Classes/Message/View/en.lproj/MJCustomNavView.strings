@@ -1,0 +1,12 @@
+
+/* Class = "UISegmentedControl"; ewr-c8-jRv.segmentTitles[0] = "会话"; ObjectID = "ewr-c8-jRv"; */
+"ewr-c8-jRv.segmentTitles[0]" = "会话";
+
+/* Class = "UISegmentedControl"; ewr-c8-jRv.segmentTitles[1] = "关心"; ObjectID = "ewr-c8-jRv"; */
+"ewr-c8-jRv.segmentTitles[1]" = "关心";
+
+/* Class = "UISegmentedControl"; ewr-c8-jRv.segmentTitles[2] = "初遇"; ObjectID = "ewr-c8-jRv"; */
+"ewr-c8-jRv.segmentTitles[2]" = "初遇";
+
+/* Class = "UISegmentedControl"; ewr-c8-jRv.segmentTitles[3] = "重逢"; ObjectID = "ewr-c8-jRv"; */
+"ewr-c8-jRv.segmentTitles[3]" = "重逢";

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>289C0F09-E881-414B-8920-4EDAA3507B6F</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Encounter</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>43d1032b-66e5-8d46-8f59-7033c93444ce++6417</key>
+		<string>https://192.168.3.199/svn/%E4%B8%80%E7%99%BE%E4%BA%94/%252525252525252525252525252525E4%252525252525252525252525252525BB%252525252525252525252525252525A3%252525252525252525252525252525E7%252525252525252525252525252525A0%25252525252525252525252525252581/IOS/150%252525252525252525252525252525202.0</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Encounter /Encounter.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>43d1032b-66e5-8d46-8f59-7033c93444ce++6417</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>43d1032b-66e5-8d46-8f59-7033c93444ce++6417</key>
+		<string>https://192.168.3.199/svn/%E4%B8%80%E7%99%BE%E4%BA%94</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://192.168.3.199/svn/%E4%B8%80%E7%99%BE%E4%BA%94/%252525252525252525252525252525E4%252525252525252525252525252525BB%252525252525252525252525252525A3%252525252525252525252525252525E7%252525252525252525252525252525A0%25252525252525252525252525252581/IOS/150%252525252525252525252525252525202.0/Encounter%20/Encounter.xcodeproj</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>43d1032b-66e5-8d46-8f59-7033c93444ce++6417</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>43d1032b-66e5-8d46-8f59-7033c93444ce++6417</string>
+			<key>IDESourceControlWCCName</key>
+			<string>150%202.0</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="50" id="KGk-i7-Jjw" customClass="MJHotspotTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F1s-pT-eUK">
+                        <rect key="frame" x="15" y="7" width="50" height="36"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="50" id="hu5-dh-Dfz"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="龙湖时代天街" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WZa-nB-wEF">
+                        <rect key="frame" x="70" y="16" width="130" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="13km" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kkt-he-2Q3">
+                        <rect key="frame" x="205" y="19" width="100" height="12"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="100" id="VTn-rb-baq"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="centerY" secondItem="F1s-pT-eUK" secondAttribute="centerY" id="1B9-bs-xdY"/>
+                    <constraint firstItem="WZa-nB-wEF" firstAttribute="leading" secondItem="F1s-pT-eUK" secondAttribute="trailing" constant="5" id="Gqx-tY-qvA"/>
+                    <constraint firstAttribute="centerY" secondItem="Kkt-he-2Q3" secondAttribute="centerY" id="H1A-6A-pxz"/>
+                    <constraint firstAttribute="centerY" secondItem="WZa-nB-wEF" secondAttribute="centerY" id="OdT-Cu-lTB"/>
+                    <constraint firstItem="Kkt-he-2Q3" firstAttribute="leading" secondItem="WZa-nB-wEF" secondAttribute="trailing" constant="5" id="SAt-SA-RWC"/>
+                    <constraint firstAttribute="trailing" secondItem="Kkt-he-2Q3" secondAttribute="trailing" constant="15" id="bfN-wT-gBv"/>
+                    <constraint firstItem="F1s-pT-eUK" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="nXv-r9-ZbI"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="distanceLabel" destination="Kkt-he-2Q3" id="5ii-CE-vIe"/>
+                <outlet property="hotNameLabel" destination="WZa-nB-wEF" id="sXS-vI-hue"/>
+                <outlet property="listNumLabel" destination="F1s-pT-eUK" id="AgM-bs-KQC"/>
+            </connections>
+            <point key="canvasLocation" x="373" y="230"/>
+        </tableViewCell>
+    </objects>
+</document>
